@@ -6,12 +6,15 @@ UI, and REST API using Node and Express for the back-end web service.
 The collection has the below properties: 
 
 Property	Data Type	Comments
+
 ![Screen Shot 2023-03-28 at 5 31 32 PM](https://user-images.githubusercontent.com/126367511/228371458-ef9d9a39-bd84-497f-8318-203074c647b1.png)
 
 
 
 1. Create using POST /exercises
+
 Request
+
 The request body will be a JSON object with the 5 properties listed in the data model.  
 
 The POST request will have no path parameters. 
@@ -36,8 +39,9 @@ Failure: If the request body is invalid then the following response is sent:
   
   Status code: 400.
 
+
 2. Read using GET /exercises
-3. 
+
 Request
 
 No path parameter.
@@ -55,6 +59,7 @@ Body: A JSON array containing the entire collection.
 Content-type: application/json.
 
 Status code: 200.
+
 
 3. GET using GET /exercises/:_id
 
@@ -116,6 +121,7 @@ Failure:  If no document exists with the specified ID, the following response is
   Status code: 404.
   
 Note: This first checks the validity of the request body and if it is invalid, return the response with status code 400. It will only look for the existence of the document if the request body is valid.
+
 
 5. DELETE using DELETE /exercises/:_id
 
