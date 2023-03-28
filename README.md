@@ -6,6 +6,7 @@ UI, and REST API using Node and Express for the back-end web service.
 The collection has the below properties: 
 
 Property	Data Type	Comments
+![Screen Shot 2023-03-28 at 5 31 32 PM](https://user-images.githubusercontent.com/126367511/228371458-ef9d9a39-bd84-497f-8318-203074c647b1.png)
 
 name	    String	  The name of the exercise
 
