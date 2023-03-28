@@ -1,0 +1,121 @@
+body {
+  background-color: #FEFCF3;
+  color: #9ED2C6;
+  font-family:Arial, Helvetica, sans-serif;
+  font: #000000;
+  margin: 50px;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FEFCF3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #3B185F;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid #F2E5E5;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+tr:nth-child(even){background-color: #daf2ec72;}
+
+tr:hover {background-color: #FEFCF3;}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #54BAB9;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+
+.navbar a{
+  background-color: #54BAB9;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  vertical-align: center;
+  font-size: 25px;
+  font-weight:bold;
+  border-radius: 5px;
+}
+
+.navbar a:hover{
+  background-color: #9ED2C6;
+}
+
+footer{
+  margin: 25px;
+  padding-bottom: 50px;
+  background-color: #FEFCF3;
+}
+
+button{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #54BAB9;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight:bold;
+  padding: 8px;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: #E8C4C4;
+}
+
+input{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.createNewExercise{
+  background-color: #daf2ec72;
+  border: 1px solid #54BAB9;
+  padding: 25px 35px;
+  margin-bottom: 15px;
+  text-align: right;
+  border-radius: 50px;
+
+}
+
+.descriptionParagraph{
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+select{
+  font-size: 20px;
+  border: 2px solid #000000;
+  padding: 5px 66px;
+  margin: 10px;
+  text-align: right;
+}
